@@ -14,7 +14,7 @@
 
 **Для работы через докер: \**
 (Требуется установленный docker актуальной версии) \
-0.в файле conftest.py раскоментировать # options.add_argument('-headless')
+0.в файле conftest.py раскоментировать # options.add_argument('-headless') \
 1.сбилдить проект \
 ``` docker build -t dialog-test .``` \
 2.запустить образ \
